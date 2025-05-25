@@ -28,6 +28,7 @@ public class Target : MonoBehaviour
     }
     private void OnMouseDown()
     {
+        Destroy(gameObject);
         Debug.Log("Clicked");
     }
     private void OnTriggerEnter(Collider other)
